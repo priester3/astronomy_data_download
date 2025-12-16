@@ -1,0 +1,12 @@
+all:
+    workspace_dir: 'E:\lab\AI4SCI\deep_space_explore\jwst_process'
+jwst:
+    download_cfg:
+        download_tag: 'jwst_data'
+        max_threads: 5                 
+    catalog_cfg:
+        calib_level: 3
+        dataproduct_type: image
+        intentType: SCIENCE
+        obs_collection: JWST
+        output_file: 'jwst_catalog.vot'
